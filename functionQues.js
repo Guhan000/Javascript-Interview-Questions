@@ -150,6 +150,7 @@ let user = {
     username: "guhan",
     rc1 : () => {
         console.log(this.username);
+        // In this func, this keyword pointing to global scope!
     },
     rc2(){
         console.log(this.username);
